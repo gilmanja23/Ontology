@@ -26,3 +26,12 @@ class Test:
     @staticmethod
     def subtract_three_numbers (number_one, number_two, number_three):
         return number_one - number_two - number_three
+    
+    @staticmethod
+    def multiply_three_numbers (number_one, number_two, number_three):
+        return number_one * number_two * number_three
+
+    @staticmethod
+    def divide_three_numbers (number_one, number_two, number_three):
+        return number_one / number_two / number_three
+    

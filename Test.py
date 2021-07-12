@@ -1,6 +1,4 @@
 import math
-
-
 class Test:
     def __init__(self):
         self.sum = 0
@@ -20,3 +18,11 @@ class Test:
     @staticmethod
     def divide_two_numbers(number_one, number_two):
         return number_one / number_two
+
+    @staticmethod
+    def add_three_numbers (number_one, number_two, number_three):
+        return number_one + number_two + number_three
+
+    @staticmethod
+    def subtract_three_numbers (number_one, number_two, number_three):
+        return number_one - number_two - number_three
